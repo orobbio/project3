@@ -80,17 +80,14 @@ $(document).ready(function() {
     newPostCardHeading.append('<br>');
     newPostCardHeading.append(newPostCategory);
     newPostCardHeading.append(viewBtn);
-    //newPostCardHeading.append(newPostDate);
     newPostCardBody.append(newPostBody);
-   //newPostCardBody.append(newPostName);
     newPostCard.append(newPostCardHeading);
     newPostCard.append(newPostCardBody);
     newPostCard.data("post", post);
     return newPostCard;
   }
 
-  // This function figures out which post we want to delete and then calls
-  // deletePost
+
   function handlePostDelete() {
     var currentPost = $(this)
       .parent()
@@ -99,8 +96,6 @@ $(document).ready(function() {
     deletePost(currentPost.id);
   }
 
-  // This function figures out which post we want to edit and takes it to the
-  // Appropriate url
   function handlePostView() {
     var currentPost = $(this)
       .parent()
@@ -109,7 +104,7 @@ $(document).ready(function() {
     window.location.href = "/postData?post_id=" + currentPost.id;
   }
 
-  // This function displays a message when there are no posts
+
   function displayEmpty() {
     blogContainer.empty();
     var messageH2 = $("<h2>");
@@ -118,7 +113,6 @@ $(document).ready(function() {
     blogContainer.append(messageH2);
   }
 
-  // This function handles reloading new posts when the category changes
   function handleCategoryChange() {
     var newPostCategory = $(this).val();
     getPosts(newPostCategory);

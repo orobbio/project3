@@ -44,7 +44,7 @@ $(document).ready(function() {
     newPostCardHeading.addClass("card-header card-img-top");
     
     var viewBtn = $("<button>");
-    viewBtn.text("View Post");
+    viewBtn.text("View SOP");
     viewBtn.addClass("view btn btn-default");
     var newPostTitle = $("<h2>");
     var newPostDate = $("<p>");

@@ -41,9 +41,9 @@ form#postData {
 }
 
 body {
-  font-family: 'Open Sans Light', sans-serif;
-  font-size: 14px;
-  color: rgb(233, 162, 55);
+  font-family: 'helvetica', sans-serif;
+  font-size: 16px;
+  color: black;
   background-color: antiquewhite;
   text-shadow: black;
 
@@ -51,11 +51,11 @@ body {
 }
 
 a {
-  color: blanchedalmond;
+  color: Black;
 }
 
 a:hover {
-  color: #989c9e;
+  color: #b40404;
 }
 
 .card {
@@ -79,7 +79,7 @@ div {
 
 label {
   font-size: 12pt;
-  color: blanchedalmond;
+  color: black;
   font-weight: bolder;
 }
 

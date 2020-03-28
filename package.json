@@ -3,15 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+
   "dependencies": {
     "express": "^4.17.1",
     "mysql2": "^1.7.0",
@@ -20,5 +15,11 @@
     "react-scripts": "1.1.4",
     "sequelize": "^4.44.3"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+  }
 }
